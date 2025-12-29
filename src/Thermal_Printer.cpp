@@ -69,7 +69,7 @@ static void tpSendScanline(uint8_t *pSrc, int iLen);
 
 struct PRINTERID
 {
-  const char *szBLEName;
+  const char *szBLENames[] = {(char *)"JK01";
   uint8_t ucBLEType;
 } ;
 // Names and types of supported printers
@@ -81,7 +81,7 @@ const PRINTERID szPrinterIDs[] PROGMEM = {
 	{(char *)"MPT-II", PRINTER_MTP2},
 	{(char *)"MPT-3", PRINTER_MTP3},
 	{(char *)"MPT-3F", PRINTER_MTP3},
-	{(char *)"JK01", PRINTER_CAT},
+	{(char *)"BLAH", PRINTER_CAT},
 	{(char *)"GT02", PRINTER_CAT},
 	{(char *)"GB01", PRINTER_CAT},
 	{(char *)"GB02", PRINTER_CAT},
