@@ -81,7 +81,7 @@ const PRINTERID szPrinterIDs[] PROGMEM = {
 	{(char *)"MPT-II", PRINTER_MTP2},
 	{(char *)"MPT-3", PRINTER_MTP3},
 	{(char *)"MPT-3F", PRINTER_MTP3},
-	{(char *)"GT01", PRINTER_CAT},
+	{(char *)"JK01", PRINTER_CAT},
 	{(char *)"GT02", PRINTER_CAT},
 	{(char *)"GB01", PRINTER_CAT},
 	{(char *)"GB02", PRINTER_CAT},
